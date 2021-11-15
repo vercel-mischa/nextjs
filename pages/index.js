@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Michael Lee&apos;s Customer Success Engineer Take Home Test (Vercel)!
+          Welcome to my Take Home Test!
         </h1>
 
         <div className={styles.grid}>
