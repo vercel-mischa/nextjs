@@ -12,7 +12,7 @@ export default function Customer_Custom_Domain() {
             <p>Hello &lt;CUSTOMER_NAME&gt;,<br /><br />
               Thank you for writing in to Vercel Support!<br />
             </p>
-            <p>In order to use a custom domain from a third-party registrar for your Vercel project, you can <a href="https://vercel.com/docs/concepts/projects/custom-domains#adding-a-domain">configure this in your Vercel dashboard</a> using various methods that best suit your functional use-case.<br /><br />
+            <p>In order to use a custom domain from a third-party registrar for your Vercel project, you can <a href="https://vercel.com/docs/concepts/projects/custom-domains#adding-a-domain">configure this in your Vercel dashboard</a> using various methods that best suit your functional use-case.</p><br /><br />
             <ol>
               <li>
                 <b>Selecting Your Project</b> - On the [dashboard](https://vercel.com/dashboard), pick the project to which you would like to assign your domain.
