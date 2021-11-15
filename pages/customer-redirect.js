@@ -7,7 +7,7 @@ export default function Customer_Redirect() {
   return (
       <main className={styles.main}>
         <div className={styles.grid}>
-          <h3A customer writes in to the Helpdesk asking "How do I do a redirect from /hello-vercel to https://vercel.com?"</h3>
+          <h3>A customer writes in to the Helpdesk asking "How do I do a redirect from /hello-vercel to https://vercel.com?"</h3>
             <p><i>In a couple of paragraphs, how do you respond?</i></p>
             <p>Hello &lt;CUSTOMER_NAME&gt;,</p></br>
             <p>Thank you for writing in to Vercel Support!</p></br>
@@ -18,8 +18,8 @@ export default function Customer_Redirect() {
                   async redirects() {
                     return [
                       {
-                        source: '/about',
-                        destination: '/',
+                        source: '/hello-vercel',
+                        destination: 'https://vercel.com',
                         permanent: true,
                       },
                     ]
@@ -31,8 +31,8 @@ export default function Customer_Redirect() {
                   {
                     "redirects": [
                       { 
-                        "source": "/view-source",
-                        "destination": "https://github.com/vercel/vercel", 
+                        "source": "/hello-vercel",
+                        "destination": "https://vercel.com", 
                         "permanent": true
                       }
                     ]
