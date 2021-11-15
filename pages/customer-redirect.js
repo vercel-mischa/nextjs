@@ -29,11 +29,11 @@ export default function Customer_Redirect() {
              2) For all other use-cases, you can follow the according <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#other-redirects">documentation</a> and edit your <code>vercel.json</code> configuration file in the root of your Vercel project to include the redirect such as the following code block:
                 <pre>{`
                   {
-                    "redirects": [
+                    &quot;redirects&quot;: [
                       { 
-                        "source": "/hello-vercel",
-                        "destination": "https://vercel.com", 
-                        "permanent": true
+                        &quot;source&quot;: &quot;/hello-vercel&quot;,
+                        &quot;destination&quot;: &quot;https://vercel.com&quot;, 
+                        &quot;permanent&quot;: true
                       }
                     ]
                   }
