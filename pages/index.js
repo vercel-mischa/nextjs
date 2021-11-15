@@ -34,6 +34,7 @@ export default function Home() {
               <p>Technical writing is crucial not only public facing, but internally as well.  Without good, up-to-date documentation, that is written in a way meant for the audience to digest it, it is much easier for POCs, customers, and other stakeholders to get lost in using the product.  Setting up good technical writing guidelines and pipelines will allow involved stakeholders to not only become more self-sufficient, but also give an opportunity to contribute towards improving articles and documentation.</p>
             <li>Help train and onboard new support teammates</li>
               <p>Training and onboarding new support teammates through developing high quality training material, onboarding curriculum, and individual development plans will not only allow for the company to scale alongside product and customer growth by ensuring high quality customer engagement and the opportunity to succeed in driving value back to customers, but also setting up new teammates to succeed and grow within the company as well.  Onboarding new teammates is one of the most crucial periods in an employee's tenure at a company, and ensuring that we're showing them the same passion in their onboarding and training experience that we expect to see in them after will create the kind of atmosphere that Vercel's values are built on.</p>
+          </ol>
         </div>
       </main>
 
