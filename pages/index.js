@@ -34,6 +34,11 @@ export default function Home() {
                 <a>What do you want to learn, or do more of, at work?</a>
               </Link>
             </li>
+            <li>
+              <Link href="technical-article">
+                <a>Which technical article, guide or lightning talk left the biggest positive impression on you? Why?</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </main>
