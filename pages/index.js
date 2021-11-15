@@ -25,7 +25,6 @@ export default function Home() {
             <li>Help train and onboard new support teammates</li>
               <p>Training and onboarding new support teammates through developing high quality training material, onboarding curriculum, and individual development plans will not only allow for the company to scale alongside product and customer growth by ensuring high quality customer engagement and the opportunity to succeed in driving value back to customers, but also setting up new teammates to succeed and grow within the company as well.  Onboarding new teammates is one of the most crucial periods in an employee&apos;s tenure at a company, and ensuring that we&apos;re showing them the same passion in their onboarding and training experience that we expect to see in them after will create the kind of atmosphere that Vercel&apos;s values are built on.</p>
           </ol>
-        </div>
           <h3>Least Favorite Tasks</h3>
           <ol>
             <li>Respond to 50+ support requests via email every day</li>
@@ -39,6 +38,7 @@ export default function Home() {
             <li>Help resolve billing issues for customers</li>
               <p>Historically, Customer Success/Support in my experience hasn&apos;t handled billing issues and while I don&apos;t mind raising billing issues with the Accounts or Billing Support specialized team, outside of ensuring the appropriate service license/entitlements are in place, I would generally forward this with the team that is specialized in handling billing related issues.  Customer Success, while not completely unrelated from supporting billing issues, I would emphasize the scope of Customer Success to be on helping the customer become successful with their usage of Vercel&apos;s product offerings.</p>
            </ol>
+        </div>
       </main>
 
       <footer className={styles.footer}>
