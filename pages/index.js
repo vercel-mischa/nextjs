@@ -44,6 +44,11 @@ export default function Home() {
                 <a>Go to vercel.com!</a>
               </Link>
             </li>
+            <li>
+              <Link href="customer-redirect">
+                <a>How to do redirect?</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </main>
