@@ -40,7 +40,7 @@ export default function Customer_Redirect() {
                 `}</pre>
              </p><br />
              <p>We appreciate you for writing into Vercel Support, &lt;CUSTOMER_NAME&gt;.  If you have any questions please don&apos;t hesitate to reach out!</p><br />
-             <pre style={{textAlign: 'left'}}">{`
+             <pre style={{textAlign: 'left'}}>{`
                 Best regards,
                 Michael Lee
                 Customer Success Engineer
