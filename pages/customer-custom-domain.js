@@ -30,7 +30,7 @@ export default function Customer_Custom_Domain() {
                   <ul>
                     <li><b>Apex Domains</b> - You can configure <i><a href="https://vercel.com/docs/concepts/projects/custom-domains">apex domains</a></i> either with a <i>A</i> record or through the <i>Nameservers</i> method.</li>
                     <li><b>Subdomains</b> - You can configure <i><a href="https://vercel.com/docs/concepts/projects/custom-domains#subdomains">subdomains</a></i> either with a <i>CNAME</i> record or through the <i>Nameservers</i> method.</li>
-                    <li><b>Vercel Nameservers</b> - When selecting the Nameservers method of configuration for either <i><a href="https://vercel.com/docs/concepts/projects/custom-domains#apex-domains">apex domains</a></i> or <i><a href="https://vercel.com/docs/concepts/projects/custom-domains#subdomains">subdomains</a></i>, you will be provided with the Vercel nameservers to copy and use with your registrar.
+                    <li><b>Vercel Nameservers</b> - When selecting the Nameservers method of configuration for either <i><a href="https://vercel.com/docs/concepts/projects/custom-domains#apex-domains">apex domains</a></i> or <i><a href="https://vercel.com/docs/concepts/projects/custom-domains#subdomains">subdomains</a></i>, you will be provided with the Vercel nameservers to copy and use with your registrar.</li>
                   </ul>
               </li>
               <li>
