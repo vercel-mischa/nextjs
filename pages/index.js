@@ -46,7 +46,12 @@ export default function Home() {
             </li>
             <li>
               <Link href="customer-redirect">
-                <a>How to do redirect?</a>
+                <a>How to apply redirect with my Vercel project?</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="customer-custom-domain">
+                <a>How to apply a custom domain with my Vercel project?</a>
               </Link>
             </li>
           </ul>
