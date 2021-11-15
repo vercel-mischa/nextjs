@@ -9,8 +9,8 @@ export default function Customer_Redirect() {
         <div className={styles.grid}>
           <h3>A customer writes in to the Helpdesk asking "How do I do a redirect from /hello-vercel to https://vercel.com?"</h3>
             <p><i>In a couple of paragraphs, how do you respond?</i></p>
-            <p>Hello &lt;CUSTOMER_NAME&gt;,</p></br>
-            <p>Thank you for writing in to Vercel Support!</p></br>
+            <p>Hello &lt;CUSTOMER_NAME&gt;,</p><br>
+            <p>Thank you for writing in to Vercel Support!</p><br>
             <p>In order to create a redirect from <code>/hello-vercel</code> to <code>https://vercel.com</code>, there are two options.  
             1) If you&apos;re using a Next.js project, you can follow the according <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#next.js-redirects">documentation</a> and edit your <code>next.config.js</code> configuration file in the root of your Vercel project to include the redirect such as the following code block:
               <code>
@@ -38,9 +38,9 @@ export default function Customer_Redirect() {
                     ]
                   }
                 </code>
-             </p></br>
-             <p>We appreciate you for writing into Vercel Support, &lt;CUSTOMER_NAME&gt;.  If you have any questions please don&apos;t hesitate to reach out!</p></br>
-             <p>Best regards,</p></br>
+             </p><br>
+             <p>We appreciate you for writing into Vercel Support, &lt;CUSTOMER_NAME&gt;.  If you have any questions please don&apos;t hesitate to reach out!</p><br>
+             <p>Best regards,</p><br>
              <p>Michael Lee</p>
              <p>Customer Success Engineer</p>
              <p>Vercel</p>
