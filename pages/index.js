@@ -39,6 +39,11 @@ export default function Home() {
                 <a>Which technical article, guide or lightning talk left the biggest positive impression on you? Why?</a>
               </Link>
             </li>
+            <li>
+              <Link href="vercel">
+                <a>Go to vercel.com!</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </main>
