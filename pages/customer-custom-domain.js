@@ -7,7 +7,7 @@ export default function Customer_Custom_Domain() {
   return (
       <main className={styles.main}>
         <div className={styles.grid} style={{justifyContent: 'left'}}>
-          <h3>A customer writes in to the Helpdesk stating "I have a custom domain which I purchased at GoDaddy and I want to use it on my project". In a couple of paragraphs, how do you respond?</h3>
+          <h3>A customer writes in to the Helpdesk stating &quot;I have a custom domain which I purchased at GoDaddy and I want to use it on my project&quot;. In a couple of paragraphs, how do you respond?</h3>
               
             <p>Hello &lt;CUSTOMER_NAME&gt;,<br /><br />
               Thank you for writing in to Vercel Support!<br />
