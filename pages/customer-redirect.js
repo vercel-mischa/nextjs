@@ -13,7 +13,7 @@ export default function Customer_Redirect() {
             <p>Thank you for writing in to Vercel Support!</p><br>
             <p>In order to create a redirect from <code>/hello-vercel</code> to <code>https://vercel.com</code>, there are two options.  
             1) If you&apos;re using a Next.js project, you can follow the according <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#next.js-redirects">documentation</a> and edit your <code>next.config.js</code> configuration file in the root of your Vercel project to include the redirect such as the following code block:
-              <code>`
+              <pre>{`
                 module.exports = {
                   async redirects() {
                     return [
@@ -25,9 +25,9 @@ export default function Customer_Redirect() {
                     ]
                   },
                 }
-              `</code>
+              `}</pre>
              2) For all other use-cases, you can follow the according <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#other-redirects">documentation</a> and edit your <code>vercel.json</code> configuration file in the root of your Vercel project to include the redirect such as the following code block:
-                <code>`
+                </pre>{`
                   {
                     "redirects": [
                       { 
@@ -37,7 +37,7 @@ export default function Customer_Redirect() {
                       }
                     ]
                   }
-                `</code>
+                `}</pre>
              </p><br>
              <p>We appreciate you for writing into Vercel Support, &lt;CUSTOMER_NAME&gt;.  If you have any questions please don&apos;t hesitate to reach out!</p><br>
              <p>Best regards,</p><br>
