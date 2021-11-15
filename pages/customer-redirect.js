@@ -6,10 +6,10 @@ import Link from 'next/link'
 export default function Customer_Redirect() {
   return (
       <main className={styles.main}>
-        <div className={styles.grid}>
+        <div className={styles.grid} style={{justifyContent: 'left'}}>
           <h3>A customer writes in to the Helpdesk asking &quot;How do I do a redirect from /hello-vercel to https://vercel.com?&quot; In a couple of paragraphs, how do you respond?</h3>
               
-            <p style={{justifyContent: 'left'}}>Hello &lt;CUSTOMER_NAME&gt;,<br />
+            <p>Hello &lt;CUSTOMER_NAME&gt;,<br />
               Thank you for writing in to Vercel Support!<br />
             </p>
             <p>In order to create a redirect from <code>/hello-vercel</code> to <code>https://vercel.com</code>, there are two options. <br /> 
@@ -41,7 +41,7 @@ export default function Customer_Redirect() {
                 `}</pre>
              </p><br />
              <p>We appreciate you for writing into Vercel Support, &lt;CUSTOMER_NAME&gt;.  If you have any questions please don&apos;t hesitate to reach out!</p><br />
-             <p style={{justifyContent: 'left'}}>
+             <p>
                 Best regards,<br />
                 Michael Lee<br />
                 Customer Success Engineer<br />
