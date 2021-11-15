@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="Michael Lee - Customer Success Engineer Take Home Test (Vercel)" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <main className={styles.main}>
         <div className={styles.grid}>
           <h3>Favorite Tasks</h3>
           <ol>
