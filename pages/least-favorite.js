@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Favorite() {
+export default function Least_Favorite() {
   return (
     <main className={styles.main}>
         <div className={styles.grid}>
