@@ -26,6 +26,7 @@ export default function Home() {
             <li>
               <Link href="/least-favorite">
                 <a>Least Favorite Tasks</a>
+              </Link>
             </li>
           </ul>
         </div>
