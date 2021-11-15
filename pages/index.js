@@ -38,6 +38,7 @@ export default function Home() {
               <p>While community engagement can be good for brand visibility and transparency, generally is not the most effective time spent if the ultimate end-goal is customer acquisition, account upselling/expansion, or customer success in general.  Social media engagement can be good to spread news of approved upcoming changes/releases of product features/functionality, so this task item is not completely ineffective.</p>
             <li>Help resolve billing issues for customers</li>
               <p>Historically, Customer Success/Support in my experience hasn&apos;t handled billing issues and while I don&apos;t mind raising billing issues with the Accounts or Billing Support specialized team, outside of ensuring the appropriate service license/entitlements are in place, I would generally forward this with the team that is specialized in handling billing related issues.  Customer Success, while not completely unrelated from supporting billing issues, I would emphasize the scope of Customer Success to be on helping the customer become successful with their usage of Vercel&apos;s product offerings.</p>
+           </ol>
       </main>
 
       <footer className={styles.footer}>
