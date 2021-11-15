@@ -8,7 +8,7 @@ export default function Customer_Redirect() {
       <main className={styles.main}>
         <div className={styles.grid}>
           <h3>A customer writes in to the Helpdesk asking &quot;How do I do a redirect from /hello-vercel to https://vercel.com?&quot;</h3>
-            <p><i>In a couple of paragraphs, how do you respond?</i></p>
+            <p><i>In a couple of paragraphs, how do you respond?</i></p><br />
             <p>Hello &lt;CUSTOMER_NAME&gt;,</p><br />
             <p>Thank you for writing in to Vercel Support!</p><br />
             <p>In order to create a redirect from <code>/hello-vercel</code> to <code>https://vercel.com</code>, there are two options.  
@@ -31,9 +31,9 @@ export default function Customer_Redirect() {
                   {
                     &quot;redirects&quot;: [
                       { 
-                        &quot;source&quot;: &quot;/hello-vercel&quot;,
-                        &quot;destination&quot;: &quot;https://vercel.com&quot;, 
-                        &quot;permanent&quot;: true
+                        "source": "/hello-vercel",
+                        "destination: "https://vercel.com", 
+                        "permanent": true
                       }
                     ]
                   }
@@ -41,8 +41,8 @@ export default function Customer_Redirect() {
              </p><br />
              <p>We appreciate you for writing into Vercel Support, &lt;CUSTOMER_NAME&gt;.  If you have any questions please don&apos;t hesitate to reach out!</p><br />
              <p>Best regards,</p><br />
-             <p>Michael Lee</p>
-             <p>Customer Success Engineer</p>
+             <p>Michael Lee</p><br />
+             <p>Customer Success Engineer</p><br />
              <p>Vercel</p>
           </div>
         </main>
