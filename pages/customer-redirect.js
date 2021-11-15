@@ -9,6 +9,7 @@ export default function Customer_Redirect() {
         <div className={styles.grid}>
           <h3>A customer writes in to the Helpdesk asking &quot;How do I do a redirect from /hello-vercel to https://vercel.com?&quot;</h3>
             <p><i>In a couple of paragraphs, how do you respond?</i></p><br />
+              
             <p>Hello &lt;CUSTOMER_NAME&gt;,</p><br />
             <p>Thank you for writing in to Vercel Support!</p><br />
             <p>In order to create a redirect from <code>/hello-vercel</code> to <code>https://vercel.com</code>, there are two options.  
@@ -40,10 +41,13 @@ export default function Customer_Redirect() {
                 `}</pre>
              </p><br />
              <p>We appreciate you for writing into Vercel Support, &lt;CUSTOMER_NAME&gt;.  If you have any questions please don&apos;t hesitate to reach out!</p><br />
-             <p>Best regards,</p><br />
-             <p>Michael Lee</p><br />
-             <p>Customer Success Engineer</p><br />
-             <p>Vercel</p>
+             <pre>{`
+                Best regards,
+                Michael Lee
+                Customer Success Engineer
+                Vercel
+                `}
+            </pre>
           </div>
         </main>
       )
