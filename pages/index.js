@@ -29,6 +29,11 @@ export default function Home() {
                 <a>Least Favorite Tasks</a>
               </Link>
             </li>
+            <li>
+              <Link href="learn">
+                <a>What do you want to learn, or do more of, at work?</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </main>
