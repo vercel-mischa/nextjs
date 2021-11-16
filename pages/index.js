@@ -54,6 +54,11 @@ export default function Home() {
                 <a>How to apply a custom domain with my Vercel project?</a>
               </Link>
             </li>
+            <li>
+              <Link href="common-problems">
+                <a>What is a common customer problem?</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </main>
