@@ -12,6 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <p className={styles.description}>
+          Welcome to Michael Lee&apos;s Vercel Take Home Test!
+        </p>
         <div className={styles.grid}>
           <ul>
             <li>
