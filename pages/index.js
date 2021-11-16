@@ -59,6 +59,11 @@ export default function Home() {
                 <a>What is a common customer problem?</a>
               </Link>
             </li>
+            <li>
+              <Link href="improvements">
+                <a>Exercise improvements?</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </main>
